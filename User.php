@@ -10,7 +10,7 @@ require ('counter.php');
 
 class User {
     private $id;
-    public $nome;
+    public $name;
     public $cognome;
     public $nickname;
     public $email;
@@ -88,3 +88,11 @@ $user2->setPassword('Acqua');
 $user3->setPassword('Asciugamano');
 $user4->setPassword('Dentrifricio');
 $user5->setPassword('Pizza Diavola');
+
+$users = array(
+    $user1,
+    $user2,
+    $user3,
+    $user4,
+    $user5
+);
